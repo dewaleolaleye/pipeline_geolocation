@@ -21,7 +21,7 @@ tools {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploy step'
+                echo 'Deployment step'
             }
         }
         stage('Docker') {
