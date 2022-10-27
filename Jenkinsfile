@@ -21,12 +21,12 @@ tools {
         }
         stage('Deploy') {
             steps {
-                echo 'Deployment step'
+                echo 'deployment step'
             }
         }
         stage('Docker') {
             steps {
-                echo 'Image step'
+                echo 'image step'
             }
         }
     }
